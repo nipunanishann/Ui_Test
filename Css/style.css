@@ -5,19 +5,17 @@ body{
 }
 .container{
     position: relative;
-    width: 1200px;
-    height: 300px;
+    width: 1200px auto;
+    height: 300px auto;
     margin: 240px auto;
     
 }
 .container .box{
-
-    position: relative;
-    width: calc(400px - 30px);
-    height:calc(300px - 30px);
+    width: calc(400px - 30px) auto;
+    height:calc(300px - 30px) auto;
     background: #000;
     float: left;
-    margin: 15px;
+    margin: 15px auto;
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
